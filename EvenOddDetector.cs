@@ -20,8 +20,21 @@ public class EvenOddDetector
 {
     public static string DetectEvenOdd(int number)
     {
-        string resultado = ""; 
-        
+        string resultado = "";
+
+        if (number % 2 == 0)
+        {
+            resultado = "PAR";
+        }
+        else if (number % 2 == 1)
+        {
+            resultado = "IMPAR";
+        }
+        else
+        {
+            resultado = "IMPAR";
+        }
+
         // TODO: Usa el operador % y if/else para determinar si es PAR o IMPAR
         
         return resultado;
